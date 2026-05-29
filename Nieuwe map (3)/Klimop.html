@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
+<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
+<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
+<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
+<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
+<p><a class="w3-button w3-black w3-round">contact</button></a></p>
+</div>
+
+<!-- Page Content -->
+<div class="w3-olive">
+  <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>Klimop</h1>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+
+<div class="w3-container">
+<p>Wanneer snoeien?</p>
+<div>Voorjaar: Maart/april, na de eerste groei, om de plant in vorm te brengen en te stimuleren te dichte groei.</div>
+<div>Najaar: September/oktober, om de plant op te ruimen en te zorgen dat hij de winter goed doorkomt.</div> 
+<div>Drastisch terugsnoeien: Kies hiervoor het voorjaar, zodat de plant zich gedurende het groeiseizoen kan herstellen.</div> 
+<div>Pas op, niet snoeien bij vorst: De plant kan dan beschadigd raken.</div> 
+<p>Wanneer water geven?</p>
+<div>In de volle grond:</div> 
+<div>Nieuw aangeplant: Tijdens de eerste twee groeiseizoenen is het cruciaal om de klimop regelmatig water te geven, zodat het wortelstelsel zich goed kan ontwikkelen. Houd de grond consistent vochtig.</div>
+<div>Volgroeid/gevestigd: Eenmaal goed geworteld, is klimop zeer droogtetolerant. In de volle grond heeft een gevestigde klimop meestal geen extra water nodig, behalve bij langdurige, extreme droogte en hittegolven.</div> <div>De plant haalt dan geen voldoende vocht uit diepere grondlagen.</div> 
+<p>In een pot of bak:</p> 
+<div>De grond in potten droogt veel sneller uit. Geef hier regelmatig water, zeker tijdens de lente en zomer.</div> 
+<div>Controleer de vochtigheid: laat de bovenste paar centimeter van de potgrond opdrogen voordat je opnieuw water geeft. De grond mag nooit volledig uitdrogen, maar ook niet doorweekt zijn.</div> 
+<p>Hoe water geven?</p>
+<div>Geef voldoende water per keer: Zorg ervoor dat het water de gehele kluit bereikt, zodat ook de dieperliggende wortels water krijgen.</div> 
+<div>Voorkom "natte voeten": Zowel in de volle grond als in een pot is goede drainage essentieel. Klimop houdt niet van constant natte grond, dit kan wortelrot veroorzaken. Zorg bij potten voor drainagegaten aan de onderzijde.</div> 
+<div>Water op de juiste tijd: Geef bij voorkeur water in de vroege ochtend of late avond om verdamping te minimaliseren.</div> 
+<div>Direct op de aarde: Geef water aan de voet van de plant, direct op de aarde, in plaats van over de bladeren te sproeien. Dit helpt schimmelziekten voorkomen.</div> 
+</div>
+<button style="margin-left: 20px;"onclick="alert('plant is toegevoegd!')">Klik om een plant toe te voegen aan je tuin</button>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html> 

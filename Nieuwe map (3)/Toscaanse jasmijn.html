@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
+<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
+<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
+<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
+<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
+<p><a class="w3-button w3-black w3-round">contact</button></a></p>
+</div>
+
+<!-- Page Content -->
+<div class="w3-olive">
+  <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>Toscaanse Jasmijn</h1>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+
+<div class="w3-container">
+<p>Wanneer snoeien</p>
+<div>Direct na de bloei (late zomer/vroege herfst): Dit is ideaal om de vorm en omvang te behouden en de plant compact te houden.</div> 
+<div>Voorjaar (maart-april): Doe dit om eventuele vorstschade te verwijderen en de plant te verjongen door oude, verhoute takken weg te snoeien.</div> 
+<p>Wanneer water geven?</p>
+<div>De waterfrequentie hangt sterk af van de standplaats (volle grond of pot) en het seizoen.</div> 
+<div>In de volle grond:</div> 
+<div>Eerste jaar (vestigingsfase): Na het planten heeft de jasmijn consistent water nodig om een sterk wortelstelsel te ontwikkelen. Houd de grond de eerste maanden licht vochtig en geef regelmatig water, zeker bij droogte.</div> 
+<div>Gevestigde planten: Eenmaal goed ingeworteld (na 1-2 jaar) is de Toscaanse jasmijn redelijk droogtetolerant. Tijdens normale zomers is extra water geven meestal niet nodig, tenzij het langdurig erg heet en droog is.</div> 
+<p>In een pot of bak:</p> 
+<div>De Toscaanse jasmijn wordt vaak in potten op het terras of balkon gehouden. Potgrond droogt veel sneller uit dan volle aarde.</div> 
+<div>Zomermaanden: Geef tijdens de groeiperiode (lente en zomer) regelmatig water, vaak 2 tot 3 keer per week, afhankelijk van de temperatuur. De kluit mag nooit helemaal uitdrogen.</div> 
+<div>Wintermaanden: In de winter gaat de plant in rust en heeft veel minder water nodig. Geef dan slechts af en toe water op vorstvrije dagen om te voorkomen dat de kluit uitdroogt.</div> 
+<p>Hoe water geven?</p> 
+<div>Voldoende per keer: Zorg ervoor dat je bij het water geven de hele kluit door en door nat maakt, zodat het water de diepste wortels bereikt.</div> 
+<div>Goede drainage is cruciaal: Dit is het allerbelangrijkste. De wortels mogen niet in een plas water blijven staan. Gebruik in potten altijd hydrokorrels onderin en zorg voor drainagegaten.</div> <div>Verbeter de grond in de volle aarde eventueel met zand of compost als deze te zwaar is.</div> 
+<div>Geef aan de basis: Geef water direct op de aarde rond de voet van de plant. Vermijd zo veel mogelijk de bladeren, dit om schimmelziekten te voorkomen.</div> 
+<div>Ochtend of avond: Geef water bij voorkeur in de vroege ochtend of late avond om verdamping door de zon te minimaliseren.</div> 
+</div>
+<button style="margin-left: 20px;"onclick="alert('plant is toegevoegd!')">Klik om een plant toe te voegen aan je tuin</button>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html> 

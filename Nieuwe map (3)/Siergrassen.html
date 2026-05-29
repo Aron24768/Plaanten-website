@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
+<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
+<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
+<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
+<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
+<p><a class="w3-button w3-black w3-round">contact</button></a></p>
+</div>
+
+<!-- Page Content -->
+<div class="w3-olive">
+  <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>Siergrassen</h1>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+
+<div class="w3-container">
+<p>Wanneer snoeien?</p>
+<div>Bladverliezende siergrassen: Snoei in het vroege voorjaar (eind februari/begin maart), voordat de nieuwe groei begint. Als het nog vriest, wacht dan tot later in maart.
+<div>Wintergroene siergrassen: Deze hoef je niet rigoureus te snoeien. Je kunt de lelijke, dorre of beschadigde bladeren wegknippen of eruit trekken.</div> 
+<p>Wanneer water geven</p>
+<div>De waterbehoefte van siergrassen is minimaal:
+<div>Nieuw geplante grassen (eerste groeiseizoen): Deze hebben de meeste aandacht nodig. Geef ze regelmatig water (ongeveer één keer per week bij droog weer) om een sterk wortelstelsel te ontwikkelen. De grond mag niet uitdrogen.</div> 
+<div>Vast ingeburgerde grassen: Eenmaal goed geworteld (na het eerste jaar), hebben de meeste siergrassen zelden extra water nodig. Ze halen voldoende vocht uit natuurlijke regenval.</div> <div>Alleen tijdens zeer langdurige, extreme droogteperiodes is een incidentele gietbeurt nodig.</div> 
+<div>Controle: Controleer de grond alleen bij nieuwe planten door je vinger 2-3 cm in de aarde te steken. Als het droog is, geef je water.</div> 
+<p>Hoe water geven</p>
+<div>Frequentie: Minder vaak, maar wel grondig water geven, is beter dan elke dag een klein beetje. Diep water geven moedigt de wortels aan om dieper de grond in te groeien, wat de plant sterker maakt.</div> 
+<div>Locatie: Geef water direct aan de basis van de plant, op de aarde. Vermijd het natmaken van de bladeren, omdat dit schimmels kan bevorderen.</div> 
+<div>Voorkom 'natte voeten': Net als tulpen houden siergrassen absoluut niet van stilstaand water. Zorg voor een goed drainerende bodem. Als je zware kleigrond hebt, verbeter deze dan voor het planten met compost of zand.</div> 
+<div>In potten: Siergrassen in potten hebben vaker water nodig dan die in de volle grond, omdat potgrond sneller uitdroogt. Controleer de potgrond regelmatig.</div> 
+</div>
+<button style="margin-left: 20px;"onclick="alert('plant is toegevoegd!')">Klik om een plant toe te voegen aan je tuin</button>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html> 

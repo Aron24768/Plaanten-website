@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
+<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
+<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
+<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
+<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
+<p><a class="w3-button w3-black w3-round">contact</button></a></p>
+</div>
+
+<!-- Page Content -->
+<div class="w3-olive">
+  <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>Lavendel</h1>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+
+<div class="w3-container">
+<p>Waneer snoeien?</p>
+<div>Lavendel snoei je idealiter twee keer per jaar: een hoofdsnoei in het voorjaar (maart/april) en een zomersnoei na de bloei (augustus/september).</div> 
+<p>Wanneer water geven?</p>
+<div>De grootste fout bij lavendel is te veel water geven. De waterbehoefte is minimaal:</div> 
+<div>In de volle grond:</div> 
+<div>Nieuw aangeplant: Tijdens de eerste paar weken na het planten heeft de lavendel water nodig om te wortelen. Geef dan regelmatig, maar matig water.</div> 
+<div>Gevestigde planten: Eenmaal goed geworteld (na het eerste groeiseizoen), heeft lavendel in de volle grond vrijwel geen extra water nodig. De plant haalt voldoende vocht uit de bodem, zelfs tijdens warme zomers.<div> </div>Alleen bij een aanhoudende, extreme hittegolf van meerdere weken zonder regen kun je een keer extra water geven.</div> 
+<p>In een pot of bak:</p> 
+<div>Lavendel in een pot droogt sneller uit dan in de volle grond. Hier moet je wel water geven, maar met mate.</div> 
+<div>Laat de potgrond tussen de gietbeurten door goed opdrogen. Geef pas weer water als de bovenste 5 centimeter van de aarde droog aanvoelt.</div> 
+<div>In de wintermaanden is water geven nauwelijks nodig. Zorg er wel voor dat de potkluit niet volledig uitdroogt tijdens vorstvrije periodes.</div> 
+<p>Hoe water geven?</p>
+<div>Zuinig met water: Less is more bij lavendel. Twijfel je of je water moet geven? Sla een dag over.</div> 
+<div>Zorg voor drainage: Een absolute vereiste is een goed doorlatende, liefst zanderige of kalkrijke bodem. Als je in potten plant,</div> <div>gebruik dan potgrond gemengd met zand of grind en zorg voor drainagegaten onderin de pot. Stilstaand water is funest.</div> 
+<div>Geef aan de basis: Geef water direct op de aarde rond de voet van de plant, niet op de bladeren of bloemen. Dit helpt de plant droog te blijven en voorkomt schimmels.</div> 
+<div>Ochtend is ideaal: Geef water in de vroege ochtend, zodat eventueel vocht snel kan verdampen.</div> 
+</div>
+<button style="margin-left: 20px;"onclick="alert('plant is toegevoegd!')">Klik om een plant toe te voegen aan je tuin</button>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html> 

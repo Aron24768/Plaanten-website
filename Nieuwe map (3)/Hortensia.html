@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
+<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
+<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
+<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
+<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
+<p><a class="w3-button w3-black w3-round">contact</button></a></p>
+</div>
+
+<!-- Page Content -->
+<div class="w3-olive">
+  <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>Hortensia</h1>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+
+<div class="w3-container">
+<p>Wanneer snoeien?</p>
+<div>Boerenhortensia, eikenbladhortensia, en andere soorten die op oud hout bloeien: In maart of april. De uitgebloeide bloemen beschermen de plant in de winter.</div>
+<div>Pluimhortensia, Annabelle en andere soorten die op nieuw hout bloeien: In het vroege voorjaar (februari of maart), voordat de sapstroom op gang komt.</div>
+<div>Klimhortensia: Direct na de bloei in de zomer (juli-augustus).</div>
+<p>Wanneer water geven?</p>
+<div>Controleer de grond: De eenvoudigste methode is om dagelijks de grond te controleren. Als de bovenlaag droog aanvoelt, heeft de plant water nodig.</div> 
+<div>Let op de bladeren: Hangende of slappe bladeren, vooral in de middagzon, zijn een duidelijk teken van watertekort. Na een flinke watergift zullen ze snel herstellen.</div> 
+<div>Tijdens het groeiseizoen: Geef tijdens warme en winderige dagen, en zeker tijdens de bloeiperiode, extra aandacht aan de watergift. Soms is dagelijks water geven nodig.</div> 
+<p>Hoe water geven?</p>
+<div>Frequentie: Over het algemeen is twee keer per week een ruime hoeveelheid water geven een goed uitgangspunt, maar pas dit aan op basis van de behoeften van de plant en het weer.</div> 
+<div>Hoeveelheid: Geef voldoende water zodat de kluit goed nat wordt. Er is geen vaste hoeveelheid, maar zorg dat de wortels het water kunnen opnemen.</div> 
+<div>Locatie: Geef water aan de voet van de plant, direct op de aarde. Til de stengels op om er goed bij te komen. Dit helpt om schimmelziekten op de bladeren te voorkomen.</div> 
+<div>Voorkom stilstaand water: Zorg voor een goede afwatering, vooral bij planten in potten, om wortelrot te voorkomen. De grond moet vochtig zijn, niet doorweekt.</div>  
+<p>Hortensia in pot versus volle grond</p>
+<div>In een pot: Potten drogen sneller uit dan de volle grond. Een hortensia in een pot heeft vaker water nodig, soms dagelijks bij warm weer.</div> 
+<div>In de volle grond: Eenmaal goed geworteld in de volle grond, kan de plant beter vocht vasthouden, maar heeft nog steeds regelmatig water nodig, zeker tijdens droogte</div> 
+</div>
+<button style="margin-left: 20px;"onclick="alert('plant is toegevoegd!')">Klik om een plant toe te voegen aan je tuin</button>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html> 
