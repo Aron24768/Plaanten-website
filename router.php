@@ -45,16 +45,16 @@ if (is_file($filePath)) {
     exit;
 }
 
-// Map aangevraagd → zoek index.php of index.html daarin
+// Map aangevraagd → zoek index.php of index.php daarin
 if (is_dir($filePath)) {
     $base = rtrim($filePath, '/');
     if (is_file($base . '/index.php')) {
         require $base . '/index.php';
         return true;
     }
-    if (is_file($base . '/index.html')) {
+    if (is_file($base . '/index.php')) {
         header('Content-Type: text/html; charset=utf-8');
-        readfile($base . '/index.html');
+        readfile($base . '/index.php');
         exit;
     }
 }
