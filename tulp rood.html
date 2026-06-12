@@ -4,15 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <body>
-<!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-  <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
-<p><a href="./homepage.html"><button class="w3-button w3-black w3-round">home</button></a></p>
-<p><a href="./planten.html"><button class="w3-button w3-black w3-round">planten</button></a></p>
-<p><a href="./je tuin.html"><button class="w3-button w3-black w3-round">je tuin</button></a></p>
-<p><a href="./uitlog pagina.html"><button class="w3-button w3-black w3-round">log uit</button></a></p>
-<p><a class="w3-button w3-black w3-round">contact</button></a></p>
-</div>
+<?php include("menu.php"); ?>
 
 <!-- Page Content -->
 <div class="w3-olive">

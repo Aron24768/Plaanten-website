@@ -9,9 +9,10 @@
   <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
     <button onclick="w3_close()" class="w3-bar-item w3-large">inklappen &times;</button>
     <p><a href="./index.php"><button class="w3-button w3-black w3-round">home</button></a></p>
-    <p><a href="./inloggen.html"><button class="w3-button w3-black w3-round">log in</button></a></p>
+    <p><a href="./inloggen.php"><button class="w3-button w3-black w3-round">log in</button></a></p>
 
   </div>
+
   <!-- Page Content -->
   <div class="w3-olive">
     <button class="w3-button w3-olive w3-xlarge" onclick="w3_open()">☰</button>
@@ -30,9 +31,9 @@
       }
     </script>
 
-    <p class="w3-display-topmiddle w3-hide-small"><a href="je moet inloggen.html">log in om alles over de verzorging van planten te zien!<br>Je kunt hier ook registreren!</a></p>
+    <p class="w3-display-topmiddle w3-hide-small"><a href="je moet inloggen.php">log in om alles over de verzorging van planten te zien!<br>Je kunt hier ook registreren!</a></p>
 
-    <form class="w3-containerclass w3-center" action="je moet inloggen.html">
+    <form class="w3-containerclass w3-center" action="je moet inloggen.php">
       <p><button class="w3-button w3-brown">
           <p> alle planten</p>
           <img src="bromalia fzo iets.avif" class="w3-round" alt="blommegie plaatie" style="width:490px;height:350
