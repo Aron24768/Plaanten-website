@@ -31,6 +31,12 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+<h2>Opgestuurde gegevens</h2>
+
+<p>Gebruikersnaam: <?= $_GET["gebruikersnaam"] ?? "onbekend" ?></p>
+<p>Wachtwoord: <?= $_GET["wachtwoord"] ?? "onbekend" ?></p>
+<p>Naam: <?= $_GET["naam"] ?? "onbekend" ?></p>
+<p>E-mailadres: <?= $_GET["email"] ?? "onbekend" ?></p>
 
 	 <form class="w3-containerclass w3-center"action="planten.php">
   <p><button class="w3-button w3-brown"><p> alle planten</p>
