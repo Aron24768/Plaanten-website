@@ -1,6 +1,7 @@
 <?php
 
 $score = 32;
+$score = $score + 1;
 
 ?><!DOCTYPE HTML>
 <html>
