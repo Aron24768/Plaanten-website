@@ -8,19 +8,23 @@ if ( isset($_GET["naam"]) && isset($_GET["gebruikersnaam"]) && isset($_GET["wach
 
 	$bericht = "leuk dat je je registreert. Helaas werkt het nog niet op dit moment, maar dit is wat je opgestuurd hebt: Naam = $opgestuurde_naam, gebruikersnaam = $opgestuurde_gebruikersnaam";
 } else {
-	$bericht = "hoe heet je?"; 
+	$bericht = "hoe heet je?"; }
+    ?> 
 
-<h2>Opgestuurde gegevens</h2>
+<h2> Opgestuurde gegevens </h2>
 
-}
+
  <h2>Registreren</h2>
-
-
+<form action="" method="GET">
+<p>Hallo, <?=$bericht?></p>
     <label>Gebruikersnaam:</label><br>
     <input type="text" name="gebruikersnaam"><br><br>
 
     <label>Wachtwoord:</label><br>
     <input type="password" name="wachtwoord"><br><br>
+    
+    <label>Herhaal wachtwoord:</label><br>
+    <input type="password" name="wachtwoord_herhaald"><br><br>
 
     <label>Naam:</label><br>
     <input type="text" name="naam"><br><br>
